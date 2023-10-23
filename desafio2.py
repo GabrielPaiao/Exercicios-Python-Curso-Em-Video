@@ -1,4 +1,4 @@
-dia = input('Qual o DIA do seu nascimento?')
-mes = input('Qual o MÊS do seu nascimento?')
-ano = input('Qual o ANO do seu nascimento?')
-print(dia, '/', mes, '/', ano)
+#Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
+
+nome = str(input('Qual o seu nome? '))
+print(f'É um prazer te conhecer, {nome}!')

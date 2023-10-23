@@ -1,3 +1,5 @@
+"""Faça um programa que abra e reproduza um aúdio de um arquivo .mp3"""
+
 import pygame
 
 pygame.init() #iniciar pygame

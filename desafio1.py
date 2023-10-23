@@ -1,4 +1,3 @@
-nome = input('Qual o seu nome? ')
-print('Bem vindo(a),', nome)
-print('Espero que esteja bem, {}!'.format(nome))
+#CRIE UM PROGRAMA QUE ESCREVA 'OLÁ, MUNDO!' NA TELA
 
+print('Olá, Mundo!')
