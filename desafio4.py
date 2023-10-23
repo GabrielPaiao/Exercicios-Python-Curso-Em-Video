@@ -1,0 +1,10 @@
+msg = input('Insira sua mensagem: ')
+print('Tipo primitivo: {}' .format(type(msg)))
+print('Tem espaçamento? {}' .format(msg.isspace()))
+print('É um número? {}' .format(msg.isalnum()))
+print('É uma letra? {}' .format(msg.isalpha()))
+print('É uma exp. alfanumérica? {}' .format(msg.isalnum()))
+print('É capitalizada? {}'.format(msg.istitle()))
+if msg.isalpha():
+    print('É maiúscula? {}' .format(msg.isupper()))
+    print('É minúscula? {}' .format(msg.islower()))
