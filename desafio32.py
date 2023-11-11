@@ -5,7 +5,7 @@ from datetime import date
 ano = int(input('Insira qual ano será analisado (0 se quiser o ano atual): '))
 
 if ano == 0:
-    date.today().year()
+    ano = date.today().year
 
 if ano % 4 == 0 and ano % 100 != 0 and ano % 400 == 0:
     print(f'O ano {ano} é bissexto!')
